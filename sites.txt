@@ -1,0 +1,19 @@
+# Демонстрационный список сайтов для проверки (пункт меню 3 или: python main.py -f sites.txt)
+# Один адрес на строку. Строки, начинающиеся с #, и пустые строки пропускаются.
+# Схему (https://) можно не писать.
+
+# --- Обычные сайты ---
+google.com           # поисковик
+github.com
+comtehno.kg/
+python.org
+wikipedia.org
+stackoverflow.com
+24.kg                # новости Кыргызстана
+example.com
+
+# --- Специально «проблемные», чтобы показать разные статусы ---
+https://github.com/this-page-does-not-exist-404      # ожидаем 404 (не найден)
+https://api.github.com                                # ожидаем 403 (ограничен для ботов)
+https://httpbin.org/status/503                        # ожидаем 503 (ошибка сервера)
+nonexistent-site-xyz-12345.com                        # ожидаем ошибку DNS (домена нет)
