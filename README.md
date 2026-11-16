@@ -182,3 +182,4 @@ site-availability-checker/
 ## 📄 Лицензия
 
 MIT — см. файл [LICENSE](LICENSE).
+# site-availability-checker
