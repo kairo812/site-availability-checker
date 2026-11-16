@@ -92,7 +92,7 @@ flowchart TD
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/<ваш-логин>/site-availability-checker.git
+git clone https://github.com/kairo812/site-availability-checker.git
 cd site-availability-checker
 
 # 2. (рекомендуется) виртуальное окружение
